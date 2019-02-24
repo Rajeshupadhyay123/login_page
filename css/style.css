@@ -217,7 +217,7 @@ p{
 
 .Select p{
 	position: absolute;
-	top:80%;
+	top:84%;
 	left: 26%;
 	text-align: center;
 	letter-spacing: 1px;
@@ -231,7 +231,7 @@ p{
 
 .Select .sub_select{
 	position: absolute;
-	top:85%;
+	top:89%;
 	left: 26%;
 }
 
