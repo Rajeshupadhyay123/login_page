@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+body{
+	background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img3.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'oswald';
+
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+}
+
+.container{
+	max-width: 800px;
+	height: auto;
+	background: transparent;
+	margin:50px auto;
+	box-sizing: border-box;
+	padding: 40px;
+
+}
+
+
+
+p{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin-bottom: 20px;
+	background:linear-gradient(to right,#FFD700,#8B0000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.input,
+.msg .area{
+	width: 600px;
+	padding: 20px;
+	
+	box-sizing:border-box;
+	margin-bottom: 25px;
+	border:2px solid #e9eaea;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+	transition: all 1s;
+	background-color: transparent;
+}
+
+	.input,
+.msg .area placeholder{
+	color: #00FF00;
+}
+
+.login .input{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+
+}
+.login .input:last-child{
+	margin-right:0; 
+}
+
+
+.msg .area{
+	height: 200px;
+}
+
+.input:focus,
+.msg .area:focus{
+	border:2px solid #0575e6;
+}
+.submit{
+	position: absolute;
+	top:78%;
+	left: 38%;
+	text-align: center;
+}
+.submit .btn{
+	border:2px solid #fff;
+	background:linear-gradient(to right,#800000,#FF1493);
+	
+	padding: 12px 60px;
+	font-size: 19px;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 5px;
+	position: center;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+::-webkit-input-placehoder{
+	font-family: 'oswald';
+	color:#FF00FF;
+}
